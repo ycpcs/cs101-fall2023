@@ -3,15 +3,10 @@ layout: schedule
 title: Schedule
 ---
 
-This schedule is subject to change.  Any change will be announced in class and on the course web page.
+Make sure that you attempt the CloudCoder exercises for each class *before* you come to class!  Please note that the CloudCoder exercises are very important for learning the material.
 
-Please do the reading <i>before</i> you come to class.  Note that the reading includes both the lecture notes (the **Topic** column) and, if specified, the textbook reading (the **Reading** column.)
-
-Code projects for the lectures are available on the [Examples](examples/index.html) page.
-
-<div class="callout">
-<b>Make sure you have set up the outer project directory properly as described in the Resources tab and load the example code via File&rarr;New&rarr;Module from Existing Sources... as a Gradle project.</b>
-</div>
+* The CloudCoder exercises marked with an asterisk (\*) are required: make sure you complete these before the class for which they are assigned.  The exercises not marked with an asterisk are optional, but we *strongly* recommend that you do them.
+* The CloudCoder exercises marked with a gold star (![gold star](img/goldstar-tiny.png)) are *challenge problems*.  They are harder than the normal CloudCoder exercises; completing them demonstrates significant mastery of the course topics.  You should definitely try to complete these!
 
 <script>
 	console.log("Generating calendar!");
