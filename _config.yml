@@ -1,0 +1,4 @@
+coursename: "CS 101"
+baseurl: "/cs101-fall2023"
+markdown: kramdown
+highlighter: rouge
