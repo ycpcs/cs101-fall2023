@@ -76,6 +76,7 @@ function Lab(title1, link1) {
 // document with the lab table.
 function NumberedLab(number1, title1) {
     this.title1 = "Lab " + number1 + ": " + title1;
+    var numstr1 = "";
     if (Number.isInteger(number1)) {
     	numstr1 = (number1 < 10 ? "0" : "") + number1;
     } else {
@@ -103,12 +104,22 @@ function NumberedLabNoFile(number1, title1) {
 
 function DoubleNumberedLab(number1, title1, number2, title2) {
     this.title1 = "Lab " + number1 + ": " + title1;
-    var numstr1 = (number1 < 10 ? "0" : "") + number1;
+    var numstr1 = "";
+    if (Number.isInteger(number1)) {
+    	numstr1 = (number1 < 10 ? "0" : "") + number1;
+    } else {
+    	numstr1 = (number1.substring(0,number1.length-1) < 10 ? "0" : "") + number1;
+    }
     this.link1 = "lab" + numstr1 + ".html";
     var shortCourse = courseInfo.courseName.replace(/:.*$/, '').replace(/ /, '');
     this.file1 = shortCourse + "_Lab" + numstr1 + ".zip";
     this.title2 = "Lab " + number2 + ": " + title2;
-    var numstr2 = (number2 < 10 ? "0" : "") + number2;
+    var numstr2 = "";
+    if (Number.isInteger(number2)) {
+    	numstr2 = (number2 < 10 ? "0" : "") + number2;
+    } else {
+    	numstr2 = (number2.substring(0,number2.length-1) < 10 ? "0" : "") + number2;
+    }
     this.link2 = "lab" + numstr2 + ".html";
     this.file2 = shortCourse + "_Lab" + numstr2 + ".zip";
 }
