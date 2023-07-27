@@ -40,7 +40,6 @@ courseInfo.classPeriods = [
 		topic: new Topic("Conditions/decisions review", "","Week3",["buy 3, get 1 free", "Restaurant check calculator", "More Fleems"],[
 "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1931", "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1881", 
 "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1965"]),
-		lab: new Lab("Conditions/decisions review", "")
 	},
 
 ];
