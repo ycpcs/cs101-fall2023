@@ -76,7 +76,11 @@ function Lab(title1, link1) {
 // document with the lab table.
 function NumberedLab(number1, title1) {
     this.title1 = "Lab " + number1 + ": " + title1;
-    var numstr1 = (number1 < 10 ? "0" : "") + number1;
+    if (Number.isInteger(number1)) {
+    	numstr1 = (number1 < 10 ? "0" : "") + number1;
+    } else {
+    	numstr1 = (number1.substring(0,number1.length-1) < 10 ? "0" : "") + number1;
+    }
     this.link1 = "lab" + numstr1 + ".html";
     var shortCourse = courseInfo.courseName.replace(/:.*$/, '').replace(/ /, '');
     this.file1 = shortCourse + "_Lab" + numstr1 + ".zip";
