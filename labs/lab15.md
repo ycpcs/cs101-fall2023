@@ -19,7 +19,7 @@ Start a **Cygwin Terminal** and run the following commands:
 
 Using **Notepad++**, open the file
 
-> **H:\\CS101\\CS101\_Lab15\\Boing.cpp**
+> **H:\\CS101\\CS101\_Lab15\\Boing2.cpp**
 
 Run the command
 

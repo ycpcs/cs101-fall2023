@@ -21,7 +21,7 @@ Start the **Cygwin Bash Shell** and run the following commands:
 
 Start the **Notepad++** text editor. Use it to open the files
 
-> **H:\\CS101\\CS101\_Lab14\\Boing2.cpp**
+> **H:\\CS101\\CS101\_Lab14\\Boing.cpp**
 
 When you are ready to compile the program, in the Cygwin window type the command
 
