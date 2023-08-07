@@ -49,7 +49,7 @@ The object travelled 43.1 feet or 13.1 meters.
 The object reached a height of 12.8 feet or 3.9 meters.
 </pre>
 
-The time field should have two decimal places of precision. All of the distance values should allow for up to four digits *in front* of the decimal point and one digit *after* the decimal point such that the decimal points are aligned in the final output.
+The time field should have two decimal places of precision. All of the velocity and distance values should allow for up to four digits *in front* of the decimal point and one digit *after* the decimal point.
 
 When you are ready to compile the program, in the Cygwin bash shell (or Linux terminal) window type the command
 
@@ -108,7 +108,7 @@ Similarly we can find the maximum height by substituting *t*<sub>max</sub>/2 (wh
 Programming
 -----------
 
-**START EARLY! And develop the program incrementally!** You should always have a working program at each step (even if only minimally) to make it easier to debug errors. For example, make sure the program obtains the user input properly and then add one computation at a time. Also make sure you follow good programming practices such as **adding comments**, **using meaningful variable names**, and **having proper indentation in the program**.
+**START EARLY! And develop the program incrementally!** You should always have a working program at each step (even if only minimally) to make it easier to debug errors. For example, make sure the program obtains the user input properly and then add one computation at a time printing out each intermediate value. Also make sure you follow good programming practices such as **adding comments**, **using meaningful variable names**, and **having proper indentation in the program**.
 
 See pages 346&ndash;353 of the textbook for details regarding the conversion specifiers for **printf**.
 
@@ -117,7 +117,7 @@ Grading
 
 Your grade will be determined as follows:
 
-* Design artifact: 15
+* Design artifact: 10
 * Proper variable datatypes: 5
 * Input initial velocity: 10
 * Input initial angle: 10
@@ -127,6 +127,7 @@ Your grade will be determined as follows:
 * Determine height feet: 10
 * Determine height meters: 10
 * Proper output format: 10
+* Good coding practices: 5
 
 Submitting
 ==========
