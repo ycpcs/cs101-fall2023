@@ -10,18 +10,18 @@ Program due: **Tuesday, Sept 5th by 11:59 PM**
 Getting Started
 ===============
 
-Start by downloading [CS101\_Assign01.zip](CS101_Assign01.zip), saving it in the directory **H:\\CS101**.
+Start by downloading [CS101\_Assign01\_Fa23.zip](CS101_Assign01_Fa23.zip), saving it in the directory **H:\\CS101**.
 
 Start a **Cygwin Terminal** and run the following commands:
 
     cd h:
     cd CS101
-    unzip CS101_Assign01.zip
-    cd CS101_Assign01
+    unzip CS101_Assign01_Fa23.zip
+    cd CS101_Assign01_Fa23
 
 Using **Notepad++**, open the file
 
-> **H:\\CS101\\CS101\_Assign01\\Projectile.cpp**
+> **H:\\CS101\\CS101\_Assign01\_Fa23\\Projectile.cpp**
 
 Your Tasks
 ==========
@@ -34,16 +34,19 @@ The design is due at the beginning of class on **Thursday, August 31st**.
 
 ## Program
 
-Your task is to write a program that prompts the user to enter the launch angle (in degrees) and initial velocity (in m/s) of an object. The program should then print out the object's total time in the air, the maximum height the object reached, and the horizontal distance the object covered.
+Your task is to write a program that prompts the user to enter the launch angle (in degrees) and initial velocity (in mph) of an object. The program should then print out the object's total time in the air, the maximum height the object reached, and the horizontal distance the object covered.
 
 Here is an example run of the program (user input in **bold**):
 
 <pre>
-Enter the launch angle in degrees: <b>50</b>
 Enter the initial velocity in mph: <b>25.6</b>
-The object took 3.19 seconds to hit the ground.
-The object travelled xxx feet or yyy meters.
-The object reached a height of xxx feet or yyy meters.
+Enter the launch angle in degrees: <b>50</b>
+
+For an initial velocity of 11.44 m/s and a launch angle of 50 degrees:
+
+The object took 1.79 seconds to hit the ground.
+The object travelled 43.1 feet or 13.1 meters.
+The object reached a height of 12.8 feet or 3.9 meters.
 </pre>
 
 The time field should have two decimal places of precision. All of the distance values should allow for up to four digits *in front* of the decimal point and one digit *after* the decimal point such that the decimal points are aligned in the final output.
@@ -116,11 +119,13 @@ Your grade will be determined as follows:
 
 * Design artifact: 15
 * Proper variable datatypes: 5
-* Input initial height: 25
-* Determine time: 15
-* Determine velocity m/s: 10
-* Determine velocity ft/s: 10
-* Determine velocity mph: 10
+* Input initial velocity: 10
+* Input initial angle: 10
+* Determine time: 10
+* Determine range feet: 10
+* Determine range meters: 10
+* Determine height feet: 10
+* Determine height meters: 10
 * Proper output format: 10
 
 Submitting
@@ -128,13 +133,11 @@ Submitting
 
 Your design will be collected in class on the day that designs are due.
 
-To submit your program, make sure your **Freefall.cpp** file is saved, and in the Cygwin window type the command
+To submit your program, make sure your **Projectile.cpp** file is saved, and in the Cygwin window type the command
 
     make submit
 
 Enter your Marmoset username and password (which you should have received by email.) Note that your password will not be echoed to the screen. Make sure that after you enter your username and password, you see a message indicating that the submission was successful.
-
-If the **make submit** command does not work, you can [submit using the web interface](../submitting.html) (see the link for details).
 
 Make sure that you check the file(s) you submitted to ensure that they are correct.  See the instructions for [Verifying your submission](../submitting.html#verifying-your-submission).
 
