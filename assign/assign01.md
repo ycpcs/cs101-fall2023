@@ -40,11 +40,10 @@ Here is an example run of the program (user input in **bold**):
 
 <pre>
 Enter the launch angle in degrees: <b>50</b>
-Enter the initial velocity in m/s: <b>25.6</b>
-The object took 3.19 seconds to fall.
-The velocity of the object at impact was:   31.3 m/sec
-                                           102.7 ft/sec
-                                            70.1 mph
+Enter the initial velocity in mph: <b>25.6</b>
+The object took 3.19 seconds to hit the ground.
+The object travelled xxx feet or yyy meters.
+The object reached a height of xxx feet or yyy meters.
 </pre>
 
 The time field should have two decimal places of precision. All of the distance values should allow for up to four digits *in front* of the decimal point and one digit *after* the decimal point such that the decimal points are aligned in the final output.
@@ -63,48 +62,50 @@ Hints
 Physics
 -------
 
-The basic physics governing an object falling only under the influence of gravity (neglecting air resistance) is integration of the acceleration (which for the earth is -9.81 m/s<sup>2</sup>) with respect to time. Hence the velocity of the object as a function of time is given by
+The basic physics governing the trajectory of a projectile object (neglecting air resistance) is based on integrating the initial conditions using the acceleration due to gravity (which for the earth is 9.81 m/s<sup>2</sup>) with respect to time. 
+
+> ![image](images/assign01/projmotion.png)
+
+[https://i.ytimg.com/vi/Mp8bz5P1m4I/maxresdefault.jpg](https://i.ytimg.com/vi/Mp8bz5P1m4I/maxresdefault.jpg)
+
+Where the initial velocity is *v*<sub>0</sub> and initial angle Θ. Thus we can compute the horizontal and vertical components of the initial velocity as
 
 > ![image](images/assign01/vx.png)
 
-where *v(t)* is the velocity at time *t*, *a* is the acceleration due to gravity (-9.81 m/s<sup>2</sup>), and *v*<sub>0</sub> is the initial velocity (which for this assignment is 0).
+> ![image](images/assign01/vy.png)
 
-The position of the object as a function of time is found by integrating the velocity with respect to time as follows
+The position of the object as a function of time **t** is found by integrating the velocity with respect to time (where *g = 9.81* m/sec is the acceleration of gravity) as follows
 
-> ![image](images/assign01/poseq.png)
+> ![image](images/assign01/xt.png)
 
-where *x(t)* is the position at time *t* and *x*<sub>0</sub> is the initial position (which for this assignment is the value entered by the user).
+> ![image](images/assign01/yt.png)
 
-Therefore we can find the *time* the object falls in seconds by solving the above equation for *t* setting *x(t)* = 0, *a* = -9.81, *v*<sub>0</sub> = 0
+where *x(t)* and *y(t)* are the positions at time *t* (assuming the object started at *x(0) = 0* and *y(0) = 0*).
 
-> ![image](images/assign01/timeeq.png)
+Therefore we can find the *time* it takes the object to hit the ground by setting *y(t) = 0* and solving for *t*<sub>max</sub> giving
 
-where *x*<sub>0</sub> is given in meters. Once the time is computed, the velocity at impact is computed from the velocity equation as (again setting *v*<sub>0</sub> and *a* = -9.81)
+> ![image](images/assign01/tmax.png)
 
-> ![image](images/assign01/finalveleq.png)
+Once the time is computed, we can find the maximum distance, i.e. *range*, by substituting *t*<sub>max</sub> into *x(t)* as
 
-Note the velocity will be negative indicating the object is moving downward, but your output should only show the positive magnitude.
+> ![image](images/assign01/xmax.png)
 
-Some useful conversions
+Similarly we can find the maximum height by substituting *t*<sub>max</sub>/2 (which is when the maximum height will occur) into *y(t)* as
 
-> -   3.28 feet in a meter
-> -   3600 seconds in an hour
-> -   1609 meters in a mile
+> ![image](images/assign01/ymax.png)
 
-**USE** the computer to compute the conversion factors for the velocity units by simply writing expressions in your program and storing the results in variables.
+**NOTE:** It is important that all the units match. Thus some useful conversions
+
+> -   3.28 feet/meter
+> -   3600 seconds/hour
+> -   1609 meters/mile
+
+**USE** the computer to compute the conversion factors by simply writing expressions in your program and storing the results in variables.
 
 Programming
 -----------
 
 **START EARLY! And develop the program incrementally!** You should always have a working program at each step (even if only minimally) to make it easier to debug errors. For example, make sure the program obtains the user input properly and then add one computation at a time. Also make sure you follow good programming practices such as **adding comments**, **using meaningful variable names**, and **having proper indentation in the program**.
-
-The square root function in C is
-
-    sqrt(x)
-
-which returns a **double** value which is the square root of *x*. You will need to include the **math.h** library by adding the following line at the top of your program
-
-    #include <math.h>
 
 See pages 346&ndash;353 of the textbook for details regarding the conversion specifiers for **printf**.
 
