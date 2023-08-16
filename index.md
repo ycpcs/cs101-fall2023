@@ -22,7 +22,7 @@ Welcome to the website for CS 101, Fundamentals of Computer Science I, at York C
 * [Practice Exams](practice/index.html)
 
 ## News
-* **Aug 22** &mdash; Welcome back!
+* **Aug 22** &mdash; Welcome back! Please read [How to succeed in CS 101](success.html).
 
 <!-- vim:set wrap: -->
 <!-- vim:set linebreak: -->
