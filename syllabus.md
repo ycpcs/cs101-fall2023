@@ -16,7 +16,7 @@ Instructor:
 
 > Section(s) | Instructor | Office hours
 > ---------- | ---------- | ------------
-> 101 (9:30-10:45AM KEC119) | David Babcock <dbabcock@ycp.edu> KEC 117 | TBD
+> 101 (9:30-10:45AM KEC119) | David Babcock <dbabcock@ycp.edu> KEC 117 | M 1-3PM, T 2-3PM, W 1-2PM, R 11AM-12PM, or by appointment
 > 102 (11:00AM-12:15PM KEC119) | Deepti Jindal, <djindal@ycp.edu> | TBD
 > 103 (2:00-3:15PM KEC119) | Krishna Kambhampaty, <kkambhampaty@ycp.edu> KEC115 | TBD
 
@@ -219,7 +219,9 @@ York College recognizes the importance of effective communication in all discipl
 
 ### Student Accessibility Services
 
-In accordance with the provisions of Section 504 of the Rehabilitation Act of 1973, and the Americans with Disabilities Act of 1990, York College and its faculty are obliged to make reasonable classroom and physical accommodations for students with disabilities.  If you are a student with a disability in need of classroom accommodations and have not already registered with Student Accessibility Services, please see the [SAS webpage](https://www.ycp.edu/about-us/offices-and-departments/student-success/student-accessibility-services/) for more information and to complete the online form to apply for accommodations. You may also contact <sas@ycp.edu> to establish the accommodations for which you are eligible.
+York College of Pennsylvania offers a variety of academic accommodations to students with documented disabilities to ensure their success. To request accommodations, please contact Student Accessibility Services at (717) 815.1717 or <sas@ycp.edu>. Student Accessibility Services will discuss the confidential process of requesting accessibility services and establish the accommodations for which the student is eligible.
+
+There is a possibility that during this course, classroom lectures may be recorded in accordance with York College of Pennsylvania policies for Student Accessibility Services.
 
 ### Disclaimer
 
