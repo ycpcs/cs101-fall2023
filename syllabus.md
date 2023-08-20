@@ -71,8 +71,8 @@ Your course grade will be determined as follows:
 
 -   Labs: 10%
 -   Required CloudCoder exercises: 5%
--   Homework (programming assignments): 15% **(\*)**
--   Exams (3 midterms and 1 *optional* cumulative final exam, lowest score dropped): 70% **(&dagger;)**
+-   Homework (programming assignments): 20% **(\*)**
+-   Exams (3 midterms and 1 *optional* cumulative final exam, lowest score dropped): 65% **(&dagger;)**
 
 **(\*)** You must demonstrate significant effort on all homework assignments in order to receive a passing grade the course **regardless of your overall course average**. The very important Outcome CO12 (Use top-down design to decompose complex problems into simpler problems) cannot be assessed based on exams alone. This will be demonstrated via homework assignments. Failure to demonstrate this outcome on homework assignments will be grounds for failure even with a high exam average.
 
