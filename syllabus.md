@@ -10,15 +10,15 @@ title: Syllabus
 **Fall 2023**
 
 Instructor: 
-- 101 - Dr. David Babcock, <dbabcock@ycp.edu>
-- 102 - Prof. Deepti Jindal <djindal@ycp.edu>
-- 103 - Dr. Krishna Kambhampaty, <kkambhampaty@ycp.edu>
+- 103 - Dr. David Babcock, <dbabcock@ycp.edu>
+- 101 - Prof. Deepti Jindal <djindal@ycp.edu>
+- 102 - Dr. Krishna Kambhampaty, <kkambhampaty@ycp.edu>
 
 > Section(s) | Instructor | Office hours
 > ---------- | ---------- | ------------
-> 101 (9:30-10:45AM KEC119) | David Babcock <dbabcock@ycp.edu> KEC 117 | M 1-3PM, T 2-3PM, W 1-2PM, R 11AM-12PM, or by appointment
-> 102 (11:00AM-12:15PM KEC119) | Deepti Jindal, <djindal@ycp.edu> | TBD
-> 103 (2:00-3:15PM KEC119) | Krishna Kambhampaty, <kkambhampaty@ycp.edu> KEC115 | TBD
+> 103 (9:30-10:45AM KEC119) | David Babcock <dbabcock@ycp.edu> KEC 117 | M 1-3PM, T 2-3PM, W 1-2PM, R 11AM-12PM, or by appointment
+> 101 (11:00AM-12:15PM KEC119) | Deepti Jindal, <djindal@ycp.edu> | TBD
+> 102 (2:00-3:15PM KEC119) | Krishna Kambhampaty, <kkambhampaty@ycp.edu> KEC115 | TBD
 
 Course description
 ------------------
