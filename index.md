@@ -15,6 +15,8 @@ Welcome to the website for CS 101, Fundamentals of Computer Science I, at York C
 * [Schedule](schedule.html)
 * [Labs](labs/index.html)
 * [Assignments](assign/index.html)
+* [Design Template](design-template.pdf) ([information and example](design/index.html))
+* [Reference Card](refcard.pdf)
 * [Resources](resources.html)
 * [Tutoring](tutoring.html)
 * [Marmoset (submission server)](https://cs.ycp.edu/marmoset)
