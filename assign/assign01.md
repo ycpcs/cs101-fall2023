@@ -5,7 +5,7 @@ title: "Assignment 1: Projectile Motion"
 
 Design due: **Thursday, Aug 31st** at the beginning of class
 
-Program due: **Tuesday, Sept 5th by 11:59 PM**
+Program due: **Wednesday, Sept 6th by 11:59 PM**
 
 Getting Started
 ===============
