@@ -20,27 +20,26 @@ courseInfo.classPeriods = [
 
 	},
 	{
-		topic: new Topic("Lecture 4: Conditions and decisions", "lectures/lecture04.html","Week2",["Basic Double Coupon*", "Simple Filter*", "Restaurant check calculator*", "Bank Balance*", "make change"],[
+		topic: new Topic("Workday", "","",[],[]),
+	},	
+	{
+		topic: new Topic("Lecture 4: Conditions and decisions", "lectures/lecture04.html","Week3",["Basic Double Coupon*", "Simple Filter*", "Restaurant check calculator*", "Bank Balance*", "make change"],[
 "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1878", "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1879", "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1881",
 "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1880",
 "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1915"]),
 		lab: new NumberedLab(4, "Salary Calculator")
 	},
 	{
-		topic: new Topic("Lecture 5: If/else if/else statements, random numbers", "lectures/lecture05.html","Week3",["Triple Coupon*", "member discount*", "Complex Filter*", "grading", "Smallest of 3", "happy birthday", "Median of three@"],[
+		topic: new Topic("Lecture 5: If/else if/else statements, random numbers", "lectures/lecture05.html","Week3",["Triple Coupon*", "member discount*", "Complex Filter*", "grading", "Smallest of 3", "happy birthday", "Median of three@", "buy 3, get 1 free", "Restaurant check calculator", "More Fleems"],[
 "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1882", "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1883", "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1884",
 "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1925",
 "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1937",
 "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1948",
-"https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1929"]),
-		lab: new NumberedLab(5, "Animal Classifier")
-
-	},
-	{
-		topic: new Topic("Conditions/decisions review", "","Week3",["buy 3, get 1 free", "Restaurant check calculator", "More Fleems"],[
+"https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1929",
 "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1931", "https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1881", 
-"https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1965"]),
-		lab: new NumberedLab("5b", "Checking the Weather")
+"https://cs.ycp.edu/cloudcoder/#exercise?c=35,p=1965"
+]),
+		lab: new DoubleNumberedLab(5, "Animal Classifier", "5b", "Checking the Weather")
 	},
 	{
 		topic: new Topic("Lecture 6: For loops, loop recipes", "lectures/lecture06.html","Week4",["bananana*", "Eeeeeeek!*", "countdown*", "keep doubling*", "dice rolls@"],[
