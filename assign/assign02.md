@@ -121,7 +121,7 @@ To submit your code, make sure your **Calendar.cpp** file is saved, and in the C
 
     make submit_ms1
 
-### Approach/Hints
+### Approach/Hints for Milestone 1
 
 **Number of days in month**
 
@@ -221,7 +221,7 @@ To submit your code, make sure your **Calendar.cpp** file is saved, and in the C
     make submit_ms2
 
 
-### Approach/Hints
+### Approach/Hints for Milestone 2
 
 **Separating weeks**
 
