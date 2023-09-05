@@ -5,8 +5,9 @@ title: "Tutoring"
 
 # Tutoring
 
-Student tutors will be available both in class (during lab activities) and in evening drop-in sessions.  
-<!--Tutoring is expected to start on Wednesday, September, 4, 2019. -->
+Student tutors will be available both in class (during lab activities) and in evening drop-in sessions.
+  
+**Tutoring is available Monday-Thursday from 6:30-8:30pm in KEC119.** Please be sure to *sign-in* if you attend a tutoring session so we can track how many students are using the tutors.
 
 ## Asking Questions
 
