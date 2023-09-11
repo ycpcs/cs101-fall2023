@@ -298,8 +298,6 @@ File **Milestone 2**:
 
 Enter your Marmoset username and password (which you should have received by email.) Note that your password will not be echoed to the screen. Make sure that after you enter your username and password, you see a message indicating that the submission was successful.
 
-If the **make** commands above do not work, you can [submit using the web interface](../submitting.html) (see the link for details).
-
 Make sure that you check the file(s) you submitted to ensure that they are correct.  See the instructions for [Verifying your submission](../submitting.html#verifying-your-submission).
 
 <div class="callout">
