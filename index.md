@@ -32,6 +32,10 @@ Welcome to the website for CS 101, Fundamentals of Computer Science I, at York C
 * **Sept 19** &mdash; [Assignment 2 Milestone 2](assign/assign02.html) **Milestone 2 Design Artifact Due in class.**
 * **Sept 25** &mdash; [Assignment 2 Milestone 2](assign/assign02.html) **Milestone 2 Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
 * **Sept 26** &mdash; **EXAM 1**
+* **Oct 5** &mdash; [Assignment 3 Milestone 1](assign/assign03.html) **Milestone 1 Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
+* **Oct 10 - NO CLASS - FALL BREAK**
+* **Oct 12** &mdash; [Assignment 3 Milestone 2](assign/assign03.html) **Milestone 2 Design Artifact Due in class.**
+* **Oct 15** &mdash; [Assignment 3 Milestone 2](assign/assign03.html) **Milestone 2 Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
 <!-- vim:set wrap: -->
 <!-- vim:set linebreak: -->
 <!-- vim:set nolist: -->
