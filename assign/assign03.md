@@ -120,15 +120,15 @@ Here is an example run of the program for **Milestone 1** (user input in **bold*
 
 <pre>
 Enter the initial configuration:
-Position 1 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 2 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 3 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>0</b>
-Position 4 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 5 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>2</b>
-Position 6 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>3</b>
-Position 7 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>0</b>
-Position 8 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 9 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>-1</b>
+Position 1 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 2 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 3 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>0</b>
+Position 4 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 5 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>2</b>
+Position 6 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>3</b>
+Position 7 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>0</b>
+Position 8 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 9 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>-1</b>
 
 Initial state:
 || |/_ |
@@ -163,17 +163,17 @@ The rules for updating the state of a domino are as follows:
 Here is an example run (user input in bold):
 
 <pre>
-Position 1 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 2 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 3 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 4 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>0</b>
-Position 5 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>2</b>
-Position 6 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 7 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 8 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 9 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>0</b>
-Position 10 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 11 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>-1</b>
+Position 1 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 2 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 3 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 4 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>0</b>
+Position 5 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>2</b>
+Position 6 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 7 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 8 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 9 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>0</b>
+Position 10 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 11 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>-1</b>
 
 Initial state:
 ||| /||| |
@@ -271,17 +271,17 @@ Run the simulation only as long as the state changes.
 Here is an example run (user input in bold):
 
 <pre>
-Position 1 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 2 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 3 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 4 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>0</b>
-Position 5 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>2</b>
-Position 6 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 7 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 8 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 9 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>0</b>
-Position 10 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
-Position 11 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>-1</b>
+Position 1 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 2 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 3 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 4 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>0</b>
+Position 5 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>2</b>
+Position 6 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 7 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 8 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 9 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>0</b>
+Position 10 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>1</b>
+Position 11 (0=empty, 1=upright, 2=tipping, 3=horizontal, -1=finished): <b>-1</b>
 
 Initial state:
 ||| /||| |
