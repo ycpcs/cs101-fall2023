@@ -99,12 +99,12 @@ Thank you for playing Roulette.
 
 Your program **MUST** use the following functions:
 
--   get_bet_type() - which takes no parameters, and returns a valid bet type obtained from the user. The function should contain all prompts for the user and validate the type is between 1-3.
--   get_number() - which takes no parameters, and returns the user's chosen value between 1-36. The function should contain all prompts for the user and validate the number is between 1-36. This function will be called from **main()** if the bet type is for a particular number.
--   get_bet_amount() - which takes the current account as a parameter, and returns a valid bet amount obtained from the user. The function should contain all prompts for the user and validate that the bet is greater than 0 and less than the current account amount.
--   spin_wheel() - which takes no parameters, and returns a random number generated between 0-37
--   evaluate_spin() - which takes four parameters: the wheel spin, the bet amount, the bet type, and the specific number. It should print the win/loss result and return the amount won/lost.
--   print_account() - which takes a parameter for the current amount of the account, and returns no value. The function should simply print out the current amount of money the user has remaining.
+-   **get_bet_type()** - which takes no parameters, and returns a valid bet type obtained from the user. The function should contain all prompts for the user and validate the type is between 1-3.
+-   **get_number()** - which takes no parameters, and returns the user's chosen value between 1-36. The function should contain all prompts for the user and validate the number is between 1-36. This function will be called from **main()** if the bet type is for a particular number.
+-   **get_bet_amount()** - which takes the current account as a parameter, and returns a valid bet amount obtained from the user. The function should contain all prompts for the user and validate that the bet is greater than 0 and less than the current account amount.
+-   **spin_wheel()** - which takes no parameters, and returns a random number generated between 0-37
+-   **evaluate_spin()** - which takes four parameters: the wheel spin, the bet amount, the bet type, and the specific number. It should print the win/loss result and return the amount won/lost.
+-   **print_account()** - which takes a parameter for the current amount of the account, and returns no value. The function should simply print out the current amount of money the user has remaining.
 
 ## Approach/Hints
 
@@ -112,7 +112,7 @@ Your program **MUST** use the following functions:
 
 You will want to look through the main function to see how the various functions are used to be sure the data types and order for the parameters and return values match. **Note:** Since the functions are **completely** separate from **main()** you may use any variable names you wish in the function declarations and inside the functions.
 
-### Function declarations**
+### Function declarations
 
 Consider the data types for each parameter and the return type of each function. **Write each function as a standalone routine.** Be sure to add function prototypes before main().
 
