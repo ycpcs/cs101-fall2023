@@ -38,7 +38,7 @@ Welcome to the website for CS 101, Fundamentals of Computer Science I, at York C
 * **Oct 16** &mdash; [Assignment 3 Milestone 2](assign/assign03.html) **Milestone 2 Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
 * **Oct 23** &mdash; [Assignment 4](assign/assign04.html) **Code Due to** [Marmoset](https://cs.ycp.edu/marmoset) **by 11:59pm**.
 * **Oct 24** &mdash; **EXAM 2**
-* **Nov 7** &mdash; [Assignment 5](assign/assign05.html) **Cloudcoder exercises Due to by 11:59pm**.
+* **Nov 7** &mdash; [Assignment 5](assign/assign05.html) **Exercises Due in Cloudcoder by 11:59pm**.
 <!-- vim:set wrap: -->
 <!-- vim:set linebreak: -->
 <!-- vim:set nolist: -->
