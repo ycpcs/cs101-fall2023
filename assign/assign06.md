@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Assignment 6: Chomp, Chomp, Chomp"
+title: "Assignment 6: Chomp, Chomp, Chomp!"
 ---
 
 **Due dates**:
@@ -173,7 +173,7 @@ like this when you run the program:
 
 ### Deliverables for Milestone 1
 
-The code for Milestone 1 should be submitted to Marmoset (using the command `make submit_ms1`) by the end of the day on **Thursday, Nov 16th**.
+The code for Milestone 1 should be submitted to Marmoset (using the command `make submit_ms1`) by the end of the day on **Friday, Nov 17th**.
 
 ### Submitting Milestone 1
 
