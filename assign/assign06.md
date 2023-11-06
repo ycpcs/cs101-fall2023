@@ -319,7 +319,16 @@ Your grade will be determined as follows:
 
 We expect you to use good coding style.  Points may be deducted for poor variable names, inconsistent or missing indentation, and/or lack of comments.
 		
-### Extra Credit - 45 points  
+### Extra Credit - 50 points  
+
+*Improve player character* - 5 points
+
+Currently the program uses the **<** character for the player, regardless of the direction the player is moving. Alternatively, it looks better if the player's "mouth" is open in the direction of motion to look like they are "eating" the pellets and power-ups. One way to accomplish this is to change the player's character field in **player\_ai** based on the direction of motion such that
+
+-   **<** is used when dx is 1 (i.e. moving right)
+-   **>** is used when dx is -1 (i.e. moving left)
+-   **v** is used when dy is -1 (i.e. moving up)
+-   **^** is used when dy is 1 (i.e. moving down)
 
 *Improve the ghost AI* - 10 points
 
