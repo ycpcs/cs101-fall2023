@@ -129,7 +129,7 @@ Use **CTRL-c** to exit the program.
 
 **Milestone 1** will add the player and allow them to move around the board eating pellets and power-ups.
 
-You will need to first create a structure named **Player** and then add the following fields to the **Player** structure (in **Player.h**)
+You will need to first create a structure named **Player** and then add the following fields to the **Player** structure in **Player.h**
 
 -   an **int** for the player's current x location
 -   an **int** for the player's current y location
@@ -156,7 +156,7 @@ We will need to add accessor functions to initialize, draw and update the fields
 
 Next we need to incorporate the player into the scene. 
 
--   Add a **Player** field to the **Scene** structure for the user
+-   Add a **Player** field to the **Scene** structure for the user in **Scene.h**
 
 -   Add code to **initialize_scene()** to call **initialize_player()** for the user. The arguments in the function call should initialize the fields of the structure so the player starts at location (**PLAYER_HOME_X**, **PLAYER_HOME_Y**) with both velocity components equal to 0 (i.e. not moving). The player's symbol and color should be initialized with **PLAYER_CHAR** and **PLAYER_COLOR** (which are defined in **Const.h** if you wish to change them). **Hint:** Since the **s** parameter is a *pointer* to a scene, use **->** to access the player field. However, since we need to pass the player field *by reference*, use the **&** as well, e.g. if the player field is **p** then the argument would be **&(s->p)**.
 	
