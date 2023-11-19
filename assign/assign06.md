@@ -303,8 +303,9 @@ Your grade will be determined as follows:
 * initialize\_player(): 10
 * draw\_player(): 10
 * player\_ai(): 15
-* check\_player\_move(): 15
+* check\_player\_move(): 10
 * update\_player(): 10
+* Player field in Scene struct: 5
 * call **Player** functions in **Scene**: 10
 
 ### Milestone 2 - 75 points
