@@ -181,7 +181,7 @@ Enter month and year: <b>8 2023</b>
 There are 31 days in the month.
 The month starts on a Tuesday.
 
-September 2018
+August 2023
 Sunday     Monday     Tuesday    Wednesday  Thursday   Friday     Saturday   
                       1          2          3          4          5          
 6          7          8          9          10         11         12          
